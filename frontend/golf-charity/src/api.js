@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://golf-charity-platform-2k95.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
