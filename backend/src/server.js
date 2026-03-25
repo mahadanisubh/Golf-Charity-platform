@@ -14,7 +14,7 @@ import winnerRoutes from "../routes/winner.routes.js";
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://golf-charity-platform-theta.vercel.app",
   credentials: true
 }));
 app.use(express.json());
